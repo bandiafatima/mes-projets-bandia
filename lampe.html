@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>LAMPES</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="lampe.css">
+</head>
+
+<body>
+
+	
+		<h1>
+			<p>Programme allumer/eteindre lampe</p>
+		</h1>
+
+
+		<button onclick="bulb()" id="button-on">allumer</button>
+		<img id="switch" src="/home/auf/Documents/lampe-eteinte.jpeg" width="200px">
+		<button onclick="bulboff()" id="button-off">eteindre</button>
+
+
+			
+
+	<script>
+
+        function bulb(ev){
+		
+			document.getElementById('switch').src="/home/auf/Documents/lampe-allumee.jpg" ;
+
+	    }
+
+	    function bulboff(){
+	    	document.getElementById('switch').src="/home/auf/Documents/lampe-eteinte.jpeg";
+	    }
+		
+
+
+
+
+
+
+
+
+
+	</script>
+	    
+	    
+	
+	
+</body>
+
+</html>
